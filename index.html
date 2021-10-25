@@ -9,13 +9,30 @@
  <body>
      <main>
         <p>SEND E-MAIL</p>
-        <form action="contactform.php" method="POST">
-            <input type="text" name="name" placeholder="Full name">
-            <input type="text" name="mail" placeholder="Your e-mail">
-            <input type="text" name="subject" placeholder="Subject">
-            <textarea name="message" placeholder="Message"></textarea>
-            <button type="submit" name="submit">SEND MAIL</button>
+        <form action="https://formsubmit.co/reddy.ajad@email.com" method="POST">
+            <label for="service" >SELECT TYPE:</label>
+            <select name="service" style="border-radius: 2px;">
+              <option value="homeservice" >HOME SERVICE</option>
+              <option value="clinic">CLINIC</option>
+            </select>
+            <br><br>
+            NAME:<br>
+            <input type="text" name="name" required style="border-radius: 2px;"><br>
+            MOBILE NUMBER:<br>
+            <input type="text" name="number" required style="border-radius: 2px;"><br>
+            E-MAIL(Optional):<br>
+            <input type="text" name="mail" style="border-radius: 2px;"><br>
+            SERVICE:<br>
+            <input type="text" name="comment" required style="border-radius: 2px;"><br>
+            <input class="book2" type="submit" value="BOOK" style="
+            padding-top: 0px;
+            margin-top: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            
+            ">
+            <p>OUR TEAM WILL CONTACT YOU SHORTLY!</p>
         </form>
-1    </main>
+     </main>
  </body>
  </html> 
